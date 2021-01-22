@@ -5,3 +5,4 @@ board.each do |marker|
     counter += 1
   end
 end
+end
