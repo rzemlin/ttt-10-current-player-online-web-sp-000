@@ -4,7 +4,7 @@ board.each do |marker|
   if marker == "X" || marker == "O"
     counter += 1
   end
-  puts "#{counter}"
+  puts counter
   end
 end
 
