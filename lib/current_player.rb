@@ -4,6 +4,7 @@ board.each do |marker|
   if marker == "X" || marker == "O"
     counter += 1
   end
+  counter
   end
 end
 
