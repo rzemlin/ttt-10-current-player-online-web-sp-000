@@ -3,9 +3,9 @@ counter = 0
 board.each do |marker|
   if marker == "X" || marker == "O"
     counter += 1
+ counter
   end
-  puts counter
-  end
+end
 end
 
 def current_player(board)
