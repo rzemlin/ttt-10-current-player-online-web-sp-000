@@ -1,11 +1,11 @@
 def turn_count(board)
-counter = 0
-board.each do |marker|
-  if marker == "X" || marker == "O"
-    counter += 1
- counter
-  end
-end
+  counter = 0
+  board.each {|space|
+    if space == "X" || space == "O"
+      counter += 1   
+    end
+  }
+  counter
 end
 
 def current_player(board)
